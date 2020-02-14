@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/common.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
+    <title>Portfolio</title>
+</head>
+
+<body class="d-flex flex-column h-100">
+
+    <!-- headerarea - entire screen width, background and border defined in css, if used  -->
+    <!-- w-100 class it lost other settings -->
+
+    <div id="headerarea">
+
+        <div class="container" id="headerbar">
+
+            <div class="row justify-content-between">
+                <!-- justify-content-center did not center text so have text-align in css -->
+                <div class="col col-md-4 col-12 align-self-left justify-content-center p-3" id="tab">
+                    Susan Marshall
+                </div>
+
+                <nav class="navbar navbar-expand col col-md-3 col-12 justify-content-center" id="main-navigation">
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container" id="backwall"> -->
+    <div class="container m-auto p-0 w-100 h-100" id="backwall">
+
+        <!-- setting max-width and top position in css -->
+        <div class="card w-100 m-0 p-3" id="content">
+
+
+            <h2 class="m-2">
+                Portfolio
+            </h2>
+            <!--To do:  auto-sizing of images and positioning of labels.
+               if I take off sizing on images they take the whole screen
+            -->
+            <div id="gallery" class="container">
+                <div class="row justify-content-left" id="galContents">
+
+                    <div class="card m-3">
+                        <a href="https://sjmarsnc.github.io/WeatherDashboard"> 
+                        <img class="cardimg-top projimage" src="./assets/images/lightning-canva.png"
+                          alt="Photo of clouds and lightning by Andre Furtado from Pexels">
+                        <!-- Photo by Andre Furtado from Pexels -->
+                        <!-- https://www.pexels.com/photo/lightning-and-gray-clouds-1162251/ -->
+                        <div class=" projLabelBox">
+                            Weather Dashboard
+                        </div>
+                        </a>
+                    </div>
+                    <div class="card m-3">
+                        <a href="https://sjmarsnc.github.io/PasswordGenerator"> 
+                        <img class="cardimg-top projimage" src="./assets/images/padlock-canva.png"
+                         alt="Photo of wet lock by Gnist Design from Pexels">
+                        <!-- Photo by Gnist Design from Pexels
+                        https://www.pexels.com/photo/black-metal-padlock-706500/ -->
+                        <div class="projLabelBox">
+                            Password Generator 
+                        </div>
+                        </a>
+                    </div>
+                    <div class="card m-3">
+                        <a href="https://sjmarsnc.github.io/TimedQuiz">
+                            <img class="cardimg-top projimage" src="./assets/images/woman-thinking-canva.png"
+                             alt="Photo of woman thinking by bruce mars from Pexels">
+                            <div class="projLabelBox">
+                                Timed Quiz
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="card m-3">
+                        <a href="https://sjmarsnc.github.io/DayPlanner">
+                        <img class="cardimg-top projimage" src="./assets/images/planner-canva.png"
+                          alt="Photo of planner Photo by Bich Tran from Pexels">
+                        <div class="projLabelBox">
+                            Day Planner
+                        </div>
+                        </a>
+                    </div>
+
+                    <div class="card m-3">
+                        <a href="https://sjmarsnc.github.io/Project-What-To-Do/">
+                        <img class="cardimg-top projimage" src="./assets/images/outback-canva.png"
+                          alt="Photo of Australian outback">
+                        <div class="projLabelBox">
+                            What To Do Outdoors
+                        </div>
+                        </a>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- size controlled by padding in common.css -->
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="text-white"> Copyright &copy; </span>
+        </div>
+    </footer>
+</body>
+
+</html>

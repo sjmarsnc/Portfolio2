@@ -1,0 +1,40 @@
+#gallery { 
+    padding: 0;
+}
+
+ 
+
+.projLabelBox { 
+    position: relative;
+    padding: 0px;
+    bottom: 50px; 
+    color: white;
+    background-color: #4aaaa5; 
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 1.5rem;
+    padding: 0px;
+    height: 3rem; 
+    width: 100%;
+    text-align: center;
+}
+
+.projimage {
+    height: 100%;
+    width: 280px;
+    overflow: hidden; 
+}
+
+
+ @media screen and (max-width: 767px) {
+    
+    #galContents {
+      justify-content: center!important; 
+    }
+
+}
+
+   @media screen and (max-width: 640px) {
+    
+  
+
+}

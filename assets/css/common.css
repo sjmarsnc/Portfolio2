@@ -1,0 +1,105 @@
+body {
+    color: #777777;
+    min-height: 100%;
+    margin: 0px;
+    margin-bottom: 25%; 
+    padding: 0px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-image: url("../images/light-grey-terrazzo.png")!important;
+}
+
+
+#headerarea {
+    width: 100%;
+    background-color: white; 
+    border-color: #ccc;
+    border-style: none none solid none; 
+    border-width: 3px; 
+}
+
+/* if want to style nav links */
+#main-navigation {
+    
+}
+
+#tab {
+    font-family: Georgia, Times, "Times New Roman", serif; 
+    font-size: 24px;
+    color: white;
+    background-color: #4aaaa5; 
+    text-align: center;
+}
+
+#navbar {
+    color: #777;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+a {
+    color: #777;
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+} 
+
+a:hover {
+    /* this was lost when went to BS - can force with !important */
+    text-decoration: underline;
+}
+
+
+h1 {
+    font-family: Georgia, Times, "Times New Roman", serif; 
+    color: white;
+    background-color: #4aaaa5; 
+}
+
+
+h2 {
+    font-family: Georgia, Times, "Times New Roman", serif; 
+    color: #4aaaa5;
+    border-color: #ccc;
+    border-style:  none none solid none; 
+    border-width: 3px;
+    padding: 10px 0px; 
+}
+
+#content {
+    max-width: 980px;
+    position: relative; 
+    top: 60px; 
+}
+ 
+footer {
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
+    font-size: x-small;
+}
+ 
+/* gap between medium (768px) and 640px */ 
+/* img doesn't float due to reset.css   */
+
+@media screen and (max-width: 767px) {
+     
+    /* override bootstraps max-width */
+    #headerbar {
+        max-width: 767px;
+    }
+
+}
+
+  
+
+/*
+   * Teal color (used for headings and backgrounds): `#4aaaa5`
+   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
+   * Main header background color: `#ffffff`
+   * Main header border color: `#cccccc`
+   * Footer background color: `#666666`
+   * Main content background color: `#ffffff`
+   * Main content border color: `#dddddd`
+   */
