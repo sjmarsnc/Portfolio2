@@ -7,9 +7,9 @@
 .projLabelBox { 
     position: relative;
     padding: 0px;
-    bottom: 50px; 
+    bottom: 0px; 
     color: white;
-    background-color: #4aaaa5; 
+    background-color: midnightblue; 
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 1.5rem;
     padding: 0px;
